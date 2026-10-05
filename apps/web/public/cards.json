@@ -1,0 +1,1512 @@
+[
+  {
+    "id": "major-01-magician",
+    "name": "The Magician",
+    "arcana": "major",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "Skill, diplomacy, address, subtlety",
+        "sickness, pain, loss, disaster, snares of enemies",
+        "self-confidence, will",
+        "the Querent, if male."
+      ],
+      "reversed": ["Physician, Magus, mental disease, disgrace, disquiet."]
+    },
+    "meaning": {
+      "upright": "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies; self-confidence, will; the Querent, if male.",
+      "reversed": "Physician, Magus, mental disease, disgrace, disquiet."
+    },
+    "image": "/cards/major-01-magician.webp"
+  },
+  {
+    "id": "major-02-high-priestess",
+    "name": "The High Priestess",
+    "arcana": "major",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "Secrets, mystery, the future as yet unrevealed",
+        "the woman who interests the Querent, if male",
+        "the Querent herself, if female",
+        "silence, tenacity",
+        "mystery, wisdom, science."
+      ],
+      "reversed": ["Passion, moral or physical ardour, conceit, surface knowledge."]
+    },
+    "meaning": {
+      "upright": "Secrets, mystery, the future as yet unrevealed; the woman who interests the Querent, if male; the Querent herself, if female; silence, tenacity; mystery, wisdom, science.",
+      "reversed": "Passion, moral or physical ardour, conceit, surface knowledge."
+    },
+    "image": "/cards/major-02-high-priestess.webp"
+  },
+  {
+    "id": "major-03-empress",
+    "name": "The Empress",
+    "arcana": "major",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "Fruitfulness, action, initiative, length of days",
+        "the unknown, clandestine",
+        "also difficulty, doubt, ignorance."
+      ],
+      "reversed": [
+        "Light, truth, the unravelling of involved matters, public rejoicings",
+        "according to another reading, vacillation."
+      ]
+    },
+    "meaning": {
+      "upright": "Fruitfulness, action, initiative, length of days; the unknown, clandestine; also difficulty, doubt, ignorance.",
+      "reversed": "Light, truth, the unravelling of involved matters, public rejoicings; according to another reading, vacillation."
+    },
+    "image": "/cards/major-03-empress.webp"
+  },
+  {
+    "id": "major-04-emperor",
+    "name": "The Emperor",
+    "arcana": "major",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "Stability, power, protection, realization",
+        "a great person",
+        "aid, reason, conviction",
+        "also authority and will."
+      ],
+      "reversed": [
+        "Benevolence, compassion, credit",
+        "also confusion to enemies, obstruction, immaturity."
+      ]
+    },
+    "meaning": {
+      "upright": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
+      "reversed": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity."
+    },
+    "image": "/cards/major-04-emperor.webp"
+  },
+  {
+    "id": "major-05-hierophant",
+    "name": "The Hierophant",
+    "arcana": "major",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "Marriage, alliance, captivity, servitude",
+        "by another account, mercy and goodness",
+        "inspiration",
+        "the man to whom the Querent has recourse."
+      ],
+      "reversed": ["Society, good understanding, concord, overkindness, weakness."]
+    },
+    "meaning": {
+      "upright": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
+      "reversed": "Society, good understanding, concord, overkindness, weakness."
+    },
+    "image": "/cards/major-05-hierophant.webp"
+  },
+  {
+    "id": "major-06-lovers",
+    "name": "The Lovers",
+    "arcana": "major",
+    "number": 6,
+    "keywords": {
+      "upright": ["Attraction, love, beauty, trials overcome."],
+      "reversed": [
+        "Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds."
+      ]
+    },
+    "meaning": {
+      "upright": "Attraction, love, beauty, trials overcome.",
+      "reversed": "Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds."
+    },
+    "image": "/cards/major-06-lovers.webp"
+  },
+  {
+    "id": "major-07-chariot",
+    "name": "The Chariot",
+    "arcana": "major",
+    "number": 7,
+    "keywords": {
+      "upright": ["Succour, providence also war, triumph, presumption, vengeance, trouble."],
+      "reversed": ["Riot, quarrel, dispute, litigation, defeat."]
+    },
+    "meaning": {
+      "upright": "Succour, providence also war, triumph, presumption, vengeance, trouble.",
+      "reversed": "Riot, quarrel, dispute, litigation, defeat."
+    },
+    "image": "/cards/major-07-chariot.webp"
+  },
+  {
+    "id": "major-08-fortitude",
+    "name": "Fortitude",
+    "arcana": "major",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "Power, energy, action, courage, magnanimity",
+        "also complete success and honours."
+      ],
+      "reversed": ["Despotism, abuse if power, weakness, discord, sometimes even disgrace."]
+    },
+    "meaning": {
+      "upright": "Power, energy, action, courage, magnanimity; also complete success and honours.",
+      "reversed": "Despotism, abuse if power, weakness, discord, sometimes even disgrace."
+    },
+    "image": "/cards/major-08-fortitude.webp"
+  },
+  {
+    "id": "major-09-hermit",
+    "name": "The Hermit",
+    "arcana": "major",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "Prudence, circumspection",
+        "also and especially treason, dissimulation, roguery, corruption."
+      ],
+      "reversed": ["Concealment, disguise, policy, fear, unreasoned caution."]
+    },
+    "meaning": {
+      "upright": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
+      "reversed": "Concealment, disguise, policy, fear, unreasoned caution."
+    },
+    "image": "/cards/major-09-hermit.webp"
+  },
+  {
+    "id": "major-10-wheel-of-fortune",
+    "name": "Wheel Of Fortune",
+    "arcana": "major",
+    "number": 10,
+    "keywords": {
+      "upright": ["Destiny, fortune, success, elevation, luck, felicity."],
+      "reversed": ["Increase, abundance, superfluity."]
+    },
+    "meaning": {
+      "upright": "Destiny, fortune, success, elevation, luck, felicity.",
+      "reversed": "Increase, abundance, superfluity."
+    },
+    "image": "/cards/major-10-wheel-of-fortune.webp"
+  },
+  {
+    "id": "major-11-justice",
+    "name": "Justice",
+    "arcana": "major",
+    "number": 11,
+    "keywords": {
+      "upright": ["Equity, rightness, probity, executive", "triumph of the deserving side in law."],
+      "reversed": [
+        "Law in all its departments, legal complications, bigotry, bias, excessive severity."
+      ]
+    },
+    "meaning": {
+      "upright": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
+      "reversed": "Law in all its departments, legal complications, bigotry, bias, excessive severity."
+    },
+    "image": "/cards/major-11-justice.webp"
+  },
+  {
+    "id": "major-12-hanged-man",
+    "name": "The Hanged Man",
+    "arcana": "major",
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy."
+      ],
+      "reversed": ["Selfishness, the crowd, body politic."]
+    },
+    "meaning": {
+      "upright": "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
+      "reversed": "Selfishness, the crowd, body politic."
+    },
+    "image": "/cards/major-12-hanged-man.webp"
+  },
+  {
+    "id": "major-13-death",
+    "name": "Death",
+    "arcana": "major",
+    "number": 13,
+    "keywords": {
+      "upright": [
+        "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties",
+        "for a maid, failure of marriage projects."
+      ],
+      "reversed": ["Inertia, sleep, lethargy, petrifaction, somnambulism", "hope destroyed."]
+    },
+    "meaning": {
+      "upright": "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties; for a maid, failure of marriage projects.",
+      "reversed": "Inertia, sleep, lethargy, petrifaction, somnambulism; hope destroyed."
+    },
+    "image": "/cards/major-13-death.webp"
+  },
+  {
+    "id": "major-14-temperance",
+    "name": "Temperance",
+    "arcana": "major",
+    "number": 14,
+    "keywords": {
+      "upright": ["Economy, moderation, frugality, management, accommodation."],
+      "reversed": [
+        "Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent",
+        "also disunion, unfortunate combinations, competing interests."
+      ]
+    },
+    "meaning": {
+      "upright": "Economy, moderation, frugality, management, accommodation.",
+      "reversed": "Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent; also disunion, unfortunate combinations, competing interests."
+    },
+    "image": "/cards/major-14-temperance.webp"
+  },
+  {
+    "id": "major-15-devil",
+    "name": "The Devil",
+    "arcana": "major",
+    "number": 15,
+    "keywords": {
+      "upright": [
+        "Ravage, violence, vehemence, extraordinary efforts, force, fatality",
+        "that which is predestined but is not for this reason evil."
+      ],
+      "reversed": ["Evil fatality, weakness, pettiness, blindness."]
+    },
+    "meaning": {
+      "upright": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
+      "reversed": "Evil fatality, weakness, pettiness, blindness."
+    },
+    "image": "/cards/major-15-devil.webp"
+  },
+  {
+    "id": "major-16-tower",
+    "name": "The Tower",
+    "arcana": "major",
+    "number": 16,
+    "keywords": {
+      "upright": [
+        "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe."
+      ],
+      "reversed": [
+        "According to one account, the same in a lesser degree also oppression, imprisonment, tyranny."
+      ]
+    },
+    "meaning": {
+      "upright": "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.",
+      "reversed": "According to one account, the same in a lesser degree also oppression, imprisonment, tyranny."
+    },
+    "image": "/cards/major-16-tower.webp"
+  },
+  {
+    "id": "major-17-star",
+    "name": "The Star",
+    "arcana": "major",
+    "number": 17,
+    "keywords": {
+      "upright": [
+        "Loss, theft, privation, abandonment",
+        "another reading says-hope and bright prospects,"
+      ],
+      "reversed": ["Arrogance, haughtiness, impotence."]
+    },
+    "meaning": {
+      "upright": "Loss, theft, privation, abandonment; another reading says-hope and bright prospects,",
+      "reversed": "Arrogance, haughtiness, impotence."
+    },
+    "image": "/cards/major-17-star.webp"
+  },
+  {
+    "id": "major-18-moon",
+    "name": "The Moon",
+    "arcana": "major",
+    "number": 18,
+    "keywords": {
+      "upright": [
+        "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error."
+      ],
+      "reversed": ["Instability, inconstancy, silence, lesser degrees of deception and error."]
+    },
+    "meaning": {
+      "upright": "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.",
+      "reversed": "Instability, inconstancy, silence, lesser degrees of deception and error."
+    },
+    "image": "/cards/major-18-moon.webp"
+  },
+  {
+    "id": "major-19-sun",
+    "name": "The Sun",
+    "arcana": "major",
+    "number": 19,
+    "keywords": {
+      "upright": ["Material happiness, fortunate marriage, contentment."],
+      "reversed": ["The same in a lesser sense."]
+    },
+    "meaning": {
+      "upright": "Material happiness, fortunate marriage, contentment.",
+      "reversed": "The same in a lesser sense."
+    },
+    "image": "/cards/major-19-sun.webp"
+  },
+  {
+    "id": "major-20-last-judgment",
+    "name": "The Last Judgment",
+    "arcana": "major",
+    "number": 20,
+    "keywords": {
+      "upright": [
+        "Change of position, renewal, outcome. Another account specifies total loss though lawsuit."
+      ],
+      "reversed": ["Weakness, pusillanimity, simplicity", "also deliberation, decision, sentence."]
+    },
+    "meaning": {
+      "upright": "Change of position, renewal, outcome. Another account specifies total loss though lawsuit.",
+      "reversed": "Weakness, pusillanimity, simplicity; also deliberation, decision, sentence."
+    },
+    "image": "/cards/major-20-last-judgment.webp"
+  },
+  {
+    "id": "major-00-fool",
+    "name": "The Fool",
+    "arcana": "major",
+    "number": 0,
+    "keywords": {
+      "upright": ["Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment."],
+      "reversed": ["Negligence, absence, distribution, carelessness, apathy, nullity, vanity."]
+    },
+    "meaning": {
+      "upright": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
+      "reversed": "Negligence, absence, distribution, carelessness, apathy, nullity, vanity."
+    },
+    "image": "/cards/major-00-fool.webp"
+  },
+  {
+    "id": "major-21-world",
+    "name": "The World",
+    "arcana": "major",
+    "number": 21,
+    "keywords": {
+      "upright": [
+        "Assured success, recompense, voyage, route, emigration, flight, change of place."
+      ],
+      "reversed": ["Inertia, fixity, stagnation, permanence."]
+    },
+    "meaning": {
+      "upright": "Assured success, recompense, voyage, route, emigration, flight, change of place.",
+      "reversed": "Inertia, fixity, stagnation, permanence."
+    },
+    "image": "/cards/major-21-world.webp"
+  },
+  {
+    "id": "wands-11",
+    "name": "Page of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 11,
+    "keywords": {
+      "upright": [
+        "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence."
+      ],
+      "reversed": [
+        "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it."
+      ]
+    },
+    "meaning": {
+      "upright": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+      "reversed": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it."
+    },
+    "image": "/cards/wands-11.webp"
+  },
+  {
+    "id": "wands-12",
+    "name": "Knight of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence."
+      ],
+      "reversed": ["Rupture, division, interruption, discord."]
+    },
+    "meaning": {
+      "upright": "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.",
+      "reversed": "Rupture, division, interruption, discord."
+    },
+    "image": "/cards/wands-12.webp"
+  },
+  {
+    "id": "wands-13",
+    "name": "Queen of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 13,
+    "keywords": {
+      "upright": [
+        "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him",
+        "if a woman, she is interested in the Querent. Also, love of money, or a certain success in business."
+      ],
+      "reversed": [
+        "Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity."
+      ]
+    },
+    "meaning": {
+      "upright": "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business.",
+      "reversed": "Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity."
+    },
+    "image": "/cards/wands-13.webp"
+  },
+  {
+    "id": "wands-14",
+    "name": "King of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 14,
+    "keywords": {
+      "upright": [
+        "Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long."
+      ],
+      "reversed": ["Good, but severe", "austere, yet tolerant."]
+    },
+    "meaning": {
+      "upright": "Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long.",
+      "reversed": "Good, but severe; austere, yet tolerant."
+    },
+    "image": "/cards/wands-14.webp"
+  },
+  {
+    "id": "wands-01",
+    "name": "Ace of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "Creation, invention, enterprise, the powers which result in these",
+        "principle, beginning, source",
+        "birth, family, origin, and in a sense the virility which is behind them",
+        "the starting point of enterprises",
+        "according to another account, money, fortune, inheritance."
+      ],
+      "reversed": ["Fall, decadence, ruin, perdition, to perish also a certain clouded joy."]
+    },
+    "meaning": {
+      "upright": "Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.",
+      "reversed": "Fall, decadence, ruin, perdition, to perish also a certain clouded joy."
+    },
+    "image": "/cards/wands-01.webp"
+  },
+  {
+    "id": "wands-02",
+    "name": "Two of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "Between the alternative readings there is no marriage possible",
+        "on the one hand, riches, fortune, magnificence",
+        "on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion",
+        "here is a lord overlooking his dominion and alternately contemplating a globe",
+        "it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth."
+      ],
+      "reversed": ["Surprise, wonder, enchantment, emotion, trouble, fear."]
+    },
+    "meaning": {
+      "upright": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+      "reversed": "Surprise, wonder, enchantment, emotion, trouble, fear."
+    },
+    "image": "/cards/wands-02.webp"
+  },
+  {
+    "id": "wands-03",
+    "name": "Three of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "He symbolizes established strength, enterprise, effort, trade, commerce, discovery",
+        "those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you."
+      ],
+      "reversed": [
+        "The end of troubles, suspension or cessation of adversity, toil and disappointment."
+      ]
+    },
+    "meaning": {
+      "upright": "He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you.",
+      "reversed": "The end of troubles, suspension or cessation of adversity, toil and disappointment."
+    },
+    "image": "/cards/wands-03.webp"
+  },
+  {
+    "id": "wands-04",
+    "name": "Four of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these."
+      ],
+      "reversed": [
+        "The meaning remains unaltered",
+        "it is prosperity, increase, felicity, beauty, embellishment."
+      ]
+    },
+    "meaning": {
+      "upright": "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
+      "reversed": "The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment."
+    },
+    "image": "/cards/wands-04.webp"
+  },
+  {
+    "id": "wands-05",
+    "name": "Five of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence."
+      ],
+      "reversed": ["Litigation, disputes, trickery, contradiction."]
+    },
+    "meaning": {
+      "upright": "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+      "reversed": "Litigation, disputes, trickery, contradiction."
+    },
+    "image": "/cards/wands-05.webp"
+  },
+  {
+    "id": "wands-06",
+    "name": "Six of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "The card has been so designed that it can cover several significations",
+        "on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier",
+        "it is expectation crowned with its own desire, the crown of hope, and so forth."
+      ],
+      "reversed": [
+        "Apprehension, fear, as of a victorious enemy at the gate",
+        "treachery, disloyalty, as of gates being opened to the enemy",
+        "also indefinite delay."
+      ]
+    },
+    "meaning": {
+      "upright": "The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
+      "reversed": "Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay."
+    },
+    "image": "/cards/wands-06.webp"
+  },
+  {
+    "id": "wands-07",
+    "name": "Seven of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife",
+        "in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him."
+      ],
+      "reversed": ["Perplexity, embarrassments, anxiety. It is also a caution against indecision."]
+    },
+    "meaning": {
+      "upright": "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.",
+      "reversed": "Perplexity, embarrassments, anxiety. It is also a caution against indecision."
+    },
+    "image": "/cards/wands-07.webp"
+  },
+  {
+    "id": "wands-08",
+    "name": "Eight of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger",
+        "great haste, great hope, speed towards an end which promises assured felicity",
+        "generally, that which is on the move",
+        "also the arrows of love."
+      ],
+      "reversed": [
+        "Arrows of jealousy, internal dispute, stingings of conscience, quarrels",
+        "and domestic disputes for persons who are married."
+      ]
+    },
+    "meaning": {
+      "upright": "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love.",
+      "reversed": "Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married."
+    },
+    "image": "/cards/wands-08.webp"
+  },
+  {
+    "id": "wands-09",
+    "name": "Nine of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly",
+        "and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment."
+      ],
+      "reversed": ["Obstacles, adversity, calamity."]
+    },
+    "meaning": {
+      "upright": "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment.",
+      "reversed": "Obstacles, adversity, calamity."
+    },
+    "image": "/cards/wands-09.webp"
+  },
+  {
+    "id": "wands-10",
+    "name": "Ten of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss."
+      ],
+      "reversed": ["Contrarieties, difficulties, intrigues, and their analogies."]
+    },
+    "meaning": {
+      "upright": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+      "reversed": "Contrarieties, difficulties, intrigues, and their analogies."
+    },
+    "image": "/cards/wands-10.webp"
+  },
+  {
+    "id": "cups-11",
+    "name": "Page of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 11,
+    "keywords": {
+      "upright": [
+        "Fair young man, one impelled to render service and with whom the Querent will be connected",
+        "a studious youth",
+        "news, message",
+        "application, reflection, meditation",
+        "also these things directed to business."
+      ],
+      "reversed": ["Taste, inclination, attachment, seduction, deception, artifice."]
+    },
+    "meaning": {
+      "upright": "Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.",
+      "reversed": "Taste, inclination, attachment, seduction, deception, artifice."
+    },
+    "image": "/cards/cups-11.webp"
+  },
+  {
+    "id": "cups-12",
+    "name": "Knight of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "Arrival, approach--sometimes that of a messenger",
+        "advances, proposition, demeanour, invitation, incitement."
+      ],
+      "reversed": ["Trickery, artifice, subtlety, swindling, duplicity, fraud."]
+    },
+    "meaning": {
+      "upright": "Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.",
+      "reversed": "Trickery, artifice, subtlety, swindling, duplicity, fraud."
+    },
+    "image": "/cards/cups-12.webp"
+  },
+  {
+    "id": "cups-13",
+    "name": "Queen of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 13,
+    "keywords": {
+      "upright": [
+        "Good, fair woman",
+        "honest, devoted woman, who will do service to the Querent",
+        "loving intelligence, and hence the gift of vision",
+        "success, happiness, pleasure",
+        "also wisdom, virtue",
+        "a perfect spouse and a good mother."
+      ],
+      "reversed": [
+        "The accounts vary",
+        "good woman",
+        "otherwise, distinguished woman but one not to be trusted",
+        "perverse woman",
+        "vice, dishonour, depravity."
+      ]
+    },
+    "meaning": {
+      "upright": "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
+      "reversed": "The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity."
+    },
+    "image": "/cards/cups-13.webp"
+  },
+  {
+    "id": "cups-14",
+    "name": "King of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 14,
+    "keywords": {
+      "upright": [
+        "Fair man, man of business, law, or divinity",
+        "responsible, disposed to oblige the Querent",
+        "also equity, art and science, including those who profess science, law and art",
+        "creative intelligence."
+      ],
+      "reversed": [
+        "Dishonest, double-dealing man",
+        "roguery, exaction, injustice, vice, scandal, pillage, considerable loss."
+      ]
+    },
+    "meaning": {
+      "upright": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
+      "reversed": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss."
+    },
+    "image": "/cards/cups-14.webp"
+  },
+  {
+    "id": "cups-01",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "House of the true heart, joy, content, abode, nourishment, abundance, fertility",
+        "Holy Table, felicity hereof."
+      ],
+      "reversed": ["House of the false heart, mutation, instability, revolution."]
+    },
+    "meaning": {
+      "upright": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
+      "reversed": "House of the false heart, mutation, instability, revolution."
+    },
+    "image": "/cards/cups-01.webp"
+  },
+  {
+    "id": "cups-02",
+    "name": "Two of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified."
+      ],
+      "reversed": [
+        "Lust, cupidity, jealousy, wish, desire, but the card may also give, says W., \"that desire which is not in nature, but by which nature is sanctified.\""
+      ]
+    },
+    "meaning": {
+      "upright": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified.",
+      "reversed": "Lust, cupidity, jealousy, wish, desire, but the card may also give, says W., \"that desire which is not in nature, but by which nature is sanctified.\""
+    },
+    "image": "/cards/cups-02.webp"
+  },
+  {
+    "id": "cups-03",
+    "name": "Three of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "The conclusion of any matter in plenty, perfection and merriment",
+        "happy issue, victory, fulfilment, solace, healing,"
+      ],
+      "reversed": [
+        "Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses."
+      ]
+    },
+    "meaning": {
+      "upright": "The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing,",
+      "reversed": "Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses."
+    },
+    "image": "/cards/cups-03.webp"
+  },
+  {
+    "id": "cups-04",
+    "name": "Four of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only",
+        "another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure."
+      ],
+      "reversed": ["Novelty, presage, new instruction, new relations."]
+    },
+    "meaning": {
+      "upright": "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure.",
+      "reversed": "Novelty, presage, new instruction, new relations."
+    },
+    "image": "/cards/cups-04.webp"
+  },
+  {
+    "id": "cups-05",
+    "name": "Five of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him",
+        "a bridge is in the background, leading to a small keep or holding. Divanatory Meanings: It is a card of loss, but something remains over",
+        "three have been taken, but two are left",
+        "it is a card of inheritance, patrimony, transmission, but not corresponding to expectations",
+        "with some interpreters it is a card of marriage, but not without bitterness or frustration."
+      ],
+      "reversed": ["News, alliances, affinity, consanguinity, ancestry, return, false projects."]
+    },
+    "meaning": {
+      "upright": "A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him; a bridge is in the background, leading to a small keep or holding. Divanatory Meanings: It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration.",
+      "reversed": "News, alliances, affinity, consanguinity, ancestry, return, false projects."
+    },
+    "image": "/cards/cups-05.webp"
+  },
+  {
+    "id": "cups-06",
+    "name": "Six of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "A card of the past and of memories, looking back, as--for example--on childhood",
+        "happiness, enjoyment, but coming rather from the past",
+        "things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct."
+      ],
+      "reversed": ["The future, renewal, that which will come to pass presently."]
+    },
+    "meaning": {
+      "upright": "A card of the past and of memories, looking back, as--for example--on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct.",
+      "reversed": "The future, renewal, that which will come to pass presently."
+    },
+    "image": "/cards/cups-06.webp"
+  },
+  {
+    "id": "cups-07",
+    "name": "Seven of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation",
+        "some attainment in these degrees, but nothing permanent or substantial is suggested."
+      ],
+      "reversed": ["Desire, will, determination, project."]
+    },
+    "meaning": {
+      "upright": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.",
+      "reversed": "Desire, will, determination, project."
+    },
+    "image": "/cards/cups-07.webp"
+  },
+  {
+    "id": "cups-08",
+    "name": "Eight of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil."
+      ],
+      "reversed": ["Great joy, happiness, feasting."]
+    },
+    "meaning": {
+      "upright": "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil.",
+      "reversed": "Great joy, happiness, feasting."
+    },
+    "image": "/cards/cups-08.webp"
+  },
+  {
+    "id": "cups-09",
+    "name": "Nine of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "Concord, contentment, physical bien-être",
+        "also victory, success, advantage",
+        "satisfaction for the Querent or person for whom the consultation is made."
+      ],
+      "reversed": [
+        "Truth, loyalty, liberty",
+        "but the readings vary and include mistakes, imperfections, etc."
+      ]
+    },
+    "meaning": {
+      "upright": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+      "reversed": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc."
+    },
+    "image": "/cards/cups-09.webp"
+  },
+  {
+    "id": "cups-10",
+    "name": "Ten of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "Contentment, repose of the entire heart",
+        "the perfection of that state",
+        "also perfection of human love and friendship",
+        "if with several picture-cards, a person who is taking charge of the Querent's interests",
+        "also the town, village or country inhabited by the Querent."
+      ],
+      "reversed": ["Repose of the false heart, indignation, violence."]
+    },
+    "meaning": {
+      "upright": "Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent's interests; also the town, village or country inhabited by the Querent.",
+      "reversed": "Repose of the false heart, indignation, violence."
+    },
+    "image": "/cards/cups-10.webp"
+  },
+  {
+    "id": "pentacles-11",
+    "name": "Page of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 11,
+    "keywords": {
+      "upright": [
+        "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof",
+        "also rule, management."
+      ],
+      "reversed": ["Prodigality, dissipation, liberality, luxury", "unfavourable news."]
+    },
+    "meaning": {
+      "upright": "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.",
+      "reversed": "Prodigality, dissipation, liberality, luxury; unfavourable news."
+    },
+    "image": "/cards/pentacles-11.webp"
+  },
+  {
+    "id": "pentacles-12",
+    "name": "Knight of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane."
+      ],
+      "reversed": [
+        "inertia, idleness, repose of that kind, stagnation",
+        "also placidity, discouragement, carelessness."
+      ]
+    },
+    "meaning": {
+      "upright": "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.",
+      "reversed": "inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness."
+    },
+    "image": "/cards/pentacles-12.webp"
+  },
+  {
+    "id": "pentacles-13",
+    "name": "Queen of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 13,
+    "keywords": {
+      "upright": ["Opulence, generosity, magnificence, security, liberty."],
+      "reversed": ["Evil, suspicion, suspense, fear, mistrust."]
+    },
+    "meaning": {
+      "upright": "Opulence, generosity, magnificence, security, liberty.",
+      "reversed": "Evil, suspicion, suspense, fear, mistrust."
+    },
+    "image": "/cards/pentacles-13.webp"
+  },
+  {
+    "id": "pentacles-14",
+    "name": "King of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 14,
+    "keywords": {
+      "upright": [
+        "Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind",
+        "success in these paths."
+      ],
+      "reversed": ["Vice, weakness, ugliness, perversity, corruption, peril."]
+    },
+    "meaning": {
+      "upright": "Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.",
+      "reversed": "Vice, weakness, ugliness, perversity, corruption, peril."
+    },
+    "image": "/cards/pentacles-14.webp"
+  },
+  {
+    "id": "pentacles-01",
+    "name": "Ace of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 1,
+    "keywords": {
+      "upright": ["Perfect contentment, felicity, ecstasy", "also speedy intelligence", "gold."],
+      "reversed": [
+        "The evil side of wealth, bad intelligence",
+        "also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not."
+      ]
+    },
+    "meaning": {
+      "upright": "Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
+      "reversed": "The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not."
+    },
+    "image": "/cards/pentacles-01.webp"
+  },
+  {
+    "id": "pentacles-02",
+    "name": "Two of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design",
+        "but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment."
+      ],
+      "reversed": [
+        "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange."
+      ]
+    },
+    "meaning": {
+      "upright": "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
+      "reversed": "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange."
+    },
+    "image": "/cards/pentacles-02.webp"
+  },
+  {
+    "id": "pentacles-03",
+    "name": "Three of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "Métier, trade, skilled labour",
+        "usually, however, regarded as a card of nobility, aristocracy, renown, glory."
+      ],
+      "reversed": ["Mediocrity, in work and otherwise, puerility, pettiness, weakness."]
+    },
+    "meaning": {
+      "upright": "Métier, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
+      "reversed": "Mediocrity, in work and otherwise, puerility, pettiness, weakness."
+    },
+    "image": "/cards/pentacles-03.webp"
+  },
+  {
+    "id": "pentacles-04",
+    "name": "Four of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance."
+      ],
+      "reversed": ["Suspense, delay, opposition."]
+    },
+    "meaning": {
+      "upright": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
+      "reversed": "Suspense, delay, opposition."
+    },
+    "image": "/cards/pentacles-04.webp"
+  },
+  {
+    "id": "pentacles-05",
+    "name": "Five of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress",
+        "also concordance, affinities. These alternatives cannot be harmonized."
+      ],
+      "reversed": ["Disorder, chaos, ruin, discord, profligacy."]
+    },
+    "meaning": {
+      "upright": "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized.",
+      "reversed": "Disorder, chaos, ruin, discord, profligacy."
+    },
+    "image": "/cards/pentacles-05.webp"
+  },
+  {
+    "id": "pentacles-06",
+    "name": "Six of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc."
+      ],
+      "reversed": ["Desire, cupidity, envy, jealousy, illusion."]
+    },
+    "meaning": {
+      "upright": "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
+      "reversed": "Desire, cupidity, envy, jealousy, illusion."
+    },
+    "image": "/cards/pentacles-06.webp"
+  },
+  {
+    "id": "pentacles-07",
+    "name": "Seven of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "These are exceedingly contradictory",
+        "in the main, it is a card of money, business, barter",
+        "but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation."
+      ],
+      "reversed": ["Cause for anxiety regarding money which it may be proposed to lend."]
+    },
+    "meaning": {
+      "upright": "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
+      "reversed": "Cause for anxiety regarding money which it may be proposed to lend."
+    },
+    "image": "/cards/pentacles-07.webp"
+  },
+  {
+    "id": "pentacles-08",
+    "name": "Eight of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage."
+      ],
+      "reversed": [
+        "Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue."
+      ]
+    },
+    "meaning": {
+      "upright": "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
+      "reversed": "Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue."
+    },
+    "image": "/cards/pentacles-08.webp"
+  },
+  {
+    "id": "pentacles-09",
+    "name": "Nine of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 9,
+    "keywords": {
+      "upright": ["Prudence, safety, success, accomplishment, certitude, discernment."],
+      "reversed": ["Roguery, deception, voided project, bad faith."]
+    },
+    "meaning": {
+      "upright": "Prudence, safety, success, accomplishment, certitude, discernment.",
+      "reversed": "Roguery, deception, voided project, bad faith."
+    },
+    "image": "/cards/pentacles-09.webp"
+  },
+  {
+    "id": "pentacles-10",
+    "name": "Ten of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 10,
+    "keywords": {
+      "upright": ["Gain, riches", "family matters, archives, extraction, the abode of a family."],
+      "reversed": [
+        "Chance, fatality, loss, robbery, games of hazard",
+        "sometimes gift, dowry, pension."
+      ]
+    },
+    "meaning": {
+      "upright": "Gain, riches; family matters, archives, extraction, the abode of a family.",
+      "reversed": "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension."
+    },
+    "image": "/cards/pentacles-10.webp"
+  },
+  {
+    "id": "swords-11",
+    "name": "Page of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 11,
+    "keywords": {
+      "upright": [
+        "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging."
+      ],
+      "reversed": [
+        "More evil side of these qualities",
+        "what is unforeseen, unprepared state",
+        "sickness is also intimated."
+      ]
+    },
+    "meaning": {
+      "upright": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+      "reversed": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated."
+    },
+    "image": "/cards/swords-11.webp"
+  },
+  {
+    "id": "swords-12",
+    "name": "Knight of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality."
+      ],
+      "reversed": ["Imprudence, incapacity, extravagance."]
+    },
+    "meaning": {
+      "upright": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+      "reversed": "Imprudence, incapacity, extravagance."
+    },
+    "image": "/cards/swords-12.webp"
+  },
+  {
+    "id": "swords-13",
+    "name": "Queen of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 13,
+    "keywords": {
+      "upright": [
+        "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation."
+      ],
+      "reversed": ["Malice, bigotry, artifice, prudery, bale, deceit."]
+    },
+    "meaning": {
+      "upright": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
+      "reversed": "Malice, bigotry, artifice, prudery, bale, deceit."
+    },
+    "image": "/cards/swords-13.webp"
+  },
+  {
+    "id": "swords-14",
+    "name": "King of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 14,
+    "keywords": {
+      "upright": [
+        "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth."
+      ],
+      "reversed": ["Cruelty, perversity, barbarity, perfidy, evil intention."]
+    },
+    "meaning": {
+      "upright": "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
+      "reversed": "Cruelty, perversity, barbarity, perfidy, evil intention."
+    },
+    "image": "/cards/swords-14.webp"
+  },
+  {
+    "id": "swords-01",
+    "name": "Ace of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling."
+      ],
+      "reversed": [
+        "The same, but the results are disastrous",
+        "another account says--conception, childbirth, augmentation, multiplicity."
+      ]
+    },
+    "meaning": {
+      "upright": "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
+      "reversed": "The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity."
+    },
+    "image": "/cards/swords-01.webp"
+  },
+  {
+    "id": "swords-02",
+    "name": "Two of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms",
+        "another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs."
+      ],
+      "reversed": ["Imposture, falsehood, duplicity, disloyalty."]
+    },
+    "meaning": {
+      "upright": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
+      "reversed": "Imposture, falsehood, duplicity, disloyalty."
+    },
+    "image": "/cards/swords-02.webp"
+  },
+  {
+    "id": "swords-03",
+    "name": "Three of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration."
+      ],
+      "reversed": ["Mental alienation, error, loss, distraction, disorder, confusion."]
+    },
+    "meaning": {
+      "upright": "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
+      "reversed": "Mental alienation, error, loss, distraction, disorder, confusion."
+    },
+    "image": "/cards/swords-03.webp"
+  },
+  {
+    "id": "swords-04",
+    "name": "Four of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design."
+      ],
+      "reversed": ["Wise administration, circumspection, economy, avarice, precaution, testament."]
+    },
+    "meaning": {
+      "upright": "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+      "reversed": "Wise administration, circumspection, economy, avarice, precaution, testament."
+    },
+    "image": "/cards/swords-04.webp"
+  },
+  {
+    "id": "swords-05",
+    "name": "Five of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these."
+      ],
+      "reversed": ["The same", "burial and obsequies."]
+    },
+    "meaning": {
+      "upright": "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.",
+      "reversed": "The same; burial and obsequies."
+    },
+    "image": "/cards/swords-05.webp"
+  },
+  {
+    "id": "swords-06",
+    "name": "Six of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 6,
+    "keywords": {
+      "upright": ["Journey by water, route, way, envoy, commissionary, expedient."],
+      "reversed": [
+        "Declaration, confession, publicity",
+        "one account says that it is a proposal of love."
+      ]
+    },
+    "meaning": {
+      "upright": "Journey by water, route, way, envoy, commissionary, expedient.",
+      "reversed": "Declaration, confession, publicity; one account says that it is a proposal of love."
+    },
+    "image": "/cards/swords-06.webp"
+  },
+  {
+    "id": "swords-07",
+    "name": "Seven of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "Design, attempt, wish, hope, confidence",
+        "also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other."
+      ],
+      "reversed": ["Good advice, counsel, instruction, slander, babbling."]
+    },
+    "meaning": {
+      "upright": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+      "reversed": "Good advice, counsel, instruction, slander, babbling."
+    },
+    "image": "/cards/swords-07.webp"
+  },
+  {
+    "id": "swords-08",
+    "name": "Eight of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny",
+        "also sickness."
+      ],
+      "reversed": [
+        "Disquiet, difficulty, opposition, accident, treachery",
+        "what is unforeseen",
+        "fatality."
+      ]
+    },
+    "meaning": {
+      "upright": "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
+      "reversed": "Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality."
+    },
+    "image": "/cards/swords-08.webp"
+  },
+  {
+    "id": "swords-09",
+    "name": "Nine of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 9,
+    "keywords": {
+      "upright": ["Death, failure, miscarriage, delay, deception, disappointment, despair."],
+      "reversed": ["Imprisonment, suspicion, doubt, reasonable fear, shame."]
+    },
+    "meaning": {
+      "upright": "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+      "reversed": "Imprisonment, suspicion, doubt, reasonable fear, shame."
+    },
+    "image": "/cards/swords-09.webp"
+  },
+  {
+    "id": "swords-10",
+    "name": "Ten of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "Whatsoever is intimated by the design",
+        "also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death."
+      ],
+      "reversed": [
+        "Advantage, profit, success, favour, but none of these are permanent",
+        "also power and authority."
+      ]
+    },
+    "meaning": {
+      "upright": "Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
+      "reversed": "Advantage, profit, success, favour, but none of these are permanent; also power and authority."
+    },
+    "image": "/cards/swords-10.webp"
+  }
+]
