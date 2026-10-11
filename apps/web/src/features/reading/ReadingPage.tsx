@@ -106,7 +106,11 @@ export function ReadingPage() {
         />
       )}
       {currentStage === 'result' && activeReading && (
-        <ReadingResult reading={activeReading} onRedo={shuffleDeck} onSaved={resetReading} />
+        <ReadingResult
+          reading={activeReading}
+          onRedo={shuffleDeck}
+          onSaved={() => resetReading(false)}
+        />
       )}
       {currentStage === 'draw' && !activeReading && (
         <>

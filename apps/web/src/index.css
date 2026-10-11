@@ -1047,6 +1047,35 @@ a {
   gap: 1.5rem;
 }
 
+.ai-reflection-panel {
+  display: grid;
+  justify-items: start;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius-panel);
+  background: hsl(var(--surface) / 0.78);
+}
+
+.ai-reflection-panel h2 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.ai-reflection-panel .eyebrow,
+.ai-reflection-panel .page-description {
+  margin: 0 0 0.35rem;
+}
+
+.ai-reflection-text {
+  margin: 0;
+  color: hsl(var(--foreground));
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
 .result-heading {
   display: grid;
   justify-items: center;

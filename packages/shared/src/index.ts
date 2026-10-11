@@ -6,3 +6,8 @@ export { ReadingSchema } from './schemas/reading.js';
 export type { Reading } from './schemas/reading.js';
 export { SettingsSchema } from './schemas/settings.js';
 export type { Settings } from './schemas/settings.js';
+export {
+  InterpretationRequestSchema,
+  InterpretationResponseSchema,
+} from './schemas/interpretation.js';
+export type { InterpretationRequest, InterpretationResponse } from './schemas/interpretation.js';

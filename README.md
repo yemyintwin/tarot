@@ -15,6 +15,14 @@ pnpm dev
 
 Vite serves the app at <http://localhost:5173>.
 
+To enable AI-generated card reflections, start the API in a second terminal:
+
+```sh
+pnpm --filter @tarot/api dev
+```
+
+The API reads `GEMINI_API_KEY` from `apps/api/.env`; the key stays server-side and is never bundled into the web app. The web app proxies `/api` requests to the local API. A reading's question and drawn card details are sent to Gemini Flash only when **Generate AI reflection** is selected.
+
 ## Build, test, and lint
 
 ```sh

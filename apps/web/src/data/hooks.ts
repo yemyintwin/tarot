@@ -1,5 +1,11 @@
-import { SettingsSchema, type Reading, type Settings } from '@tarot/shared';
+import {
+  SettingsSchema,
+  type InterpretationRequest,
+  type Reading,
+  type Settings,
+} from '@tarot/shared';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { interpretationRepository } from './http/interpretationRepository';
 import { cardRepository, readingRepository, settingsRepository } from './local/repositories';
 
 export const queryKeys = {
@@ -55,6 +61,12 @@ export function useUpdateReading() {
       queryClient.invalidateQueries({ queryKey: queryKeys.readings });
       queryClient.invalidateQueries({ queryKey: queryKeys.reading(reading.id) });
     },
+  });
+}
+
+export function useInterpretReading() {
+  return useMutation({
+    mutationFn: (request: InterpretationRequest) => interpretationRepository.interpret(request),
   });
 }
 
