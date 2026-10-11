@@ -1,11 +1,18 @@
-import { ReadingSchema, type Reading } from '@tarot/shared';
+import { ReadingSchema, type InterpretationRequest, type Reading } from '@tarot/shared';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { CardArtwork } from '../../../components/CardArtwork';
 import { ErrorState } from '../../../components/QueryState';
-import { useCards, useSaveReading, useSettings, useUpdateReading } from '../../../data/hooks';
+import {
+  useCards,
+  useInterpretReading,
+  useSaveReading,
+  useSettings,
+  useUpdateReading,
+} from '../../../data/hooks';
 import { spreads } from '../../../content/spreads';
 import { getLocalizedCard, getText } from '../../../lib/i18n';
+import { MAX_REFLECTION_REGENERATIONS, useUiStore } from '../../../store/uiStore';
 
 export function ReadingResult({
   reading,
@@ -24,6 +31,12 @@ export function ReadingResult({
   const t = getText(settings?.language);
   const saveReading = useSaveReading();
   const updateReading = useUpdateReading();
+  const interpretationMutation = useInterpretReading();
+  const interpretation = useUiStore((state) => state.interpretations[reading.id]);
+  const beginInterpretation = useUiStore((state) => state.beginInterpretation);
+  const setInterpretation = useUiStore((state) => state.setInterpretation);
+  const failInterpretation = useUiStore((state) => state.failInterpretation);
+  const isGenerating = Boolean(interpretation?.isPending || interpretationMutation.isPending);
   const [notes, setNotes] = useState(reading.notes ?? '');
   const [feedback, setFeedback] = useState('');
   const spread = spreads.find((item) => item.id === reading.spreadId);
@@ -32,11 +45,25 @@ export function ReadingResult({
     [cards, settings?.language],
   );
   const mutation = isSaved ? updateReading : saveReading;
+  const regenerationCountSuffix =
+    interpretation &&
+    interpretation.regenerationsUsed > 0 &&
+    interpretation.regenerationsUsed < MAX_REFLECTION_REGENERATIONS
+      ? ` (${interpretation.regenerationsUsed} ${
+          interpretation.regenerationsUsed === 1
+            ? t.reading.reflectionTimeSingular
+            : t.reading.reflectionTimePlural
+        })`
+      : '';
 
   useEffect(() => {
     setNotes(reading.notes ?? '');
     setFeedback('');
   }, [reading.id, reading.notes]);
+
+  useEffect(() => {
+    interpretationMutation.reset();
+  }, [reading.id, interpretationMutation.reset]);
 
   async function saveNotes() {
     try {
@@ -58,6 +85,56 @@ export function ReadingResult({
           : 'Could not save this reading.',
       );
     }
+  }
+
+  function generateInterpretation() {
+    if (
+      !spread ||
+      isGenerating ||
+      (interpretation?.hasGenerated &&
+        interpretation.regenerationsUsed >= MAX_REFLECTION_REGENERATIONS)
+    ) {
+      return;
+    }
+    if (!beginInterpretation(reading.id)) {
+      return;
+    }
+    const interpretationCards = reading.cards.flatMap(
+      (drawn): InterpretationRequest['cards'][number][] => {
+        const card = cardById.get(drawn.cardId);
+        const position = spread.positions[drawn.position];
+        if (!card || !position) {
+          return [];
+        }
+        return [
+          {
+            position: drawn.position,
+            positionLabel: position.label,
+            positionMeaning: position.meaning,
+            name: card.name,
+            orientation: drawn.reversed ? 'reversed' : 'upright',
+            keywords: drawn.reversed ? card.keywords.reversed : card.keywords.upright,
+            meaning: drawn.reversed ? card.meaning.reversed : card.meaning.upright,
+          },
+        ];
+      },
+    );
+
+    interpretationMutation.mutate(
+      {
+        language: settings?.language === 'my' ? 'my' : 'en',
+        question: reading.question,
+        spread: {
+          name: spread.name,
+          positions: spread.positions.map(({ label, meaning }) => ({ label, meaning })),
+        },
+        cards: interpretationCards,
+      },
+      {
+        onSuccess: (result) => setInterpretation(reading.id, result.interpretation),
+        onError: () => failInterpretation(reading.id),
+      },
+    );
   }
 
   return (
@@ -145,6 +222,51 @@ export function ReadingResult({
         </div>
       )}
 
+      <section className="ai-reflection-panel" aria-labelledby={`ai-reflection-${reading.id}`}>
+        <div>
+          <p className="eyebrow">GEMINI FLASH</p>
+          <h2 id={`ai-reflection-${reading.id}`}>{t.reading.aiReflectionTitle}</h2>
+          <p className="page-description">{t.reading.aiReflectionPrivacy}</p>
+        </div>
+        {!interpretation?.hasGenerated && (
+          <button
+            className="secondary-button"
+            type="button"
+            disabled={isGenerating || !spread}
+            onClick={generateInterpretation}
+          >
+            {isGenerating ? t.reading.generatingReflection : t.reading.generateReflection}
+          </button>
+        )}
+        {isGenerating && (
+          <p className="form-feedback" role="status">
+            {t.reading.generatingReflection}
+          </p>
+        )}
+        {interpretationMutation.error && (
+          <p className="form-feedback status-error" role="alert">
+            {interpretationMutation.error.message}
+          </p>
+        )}
+        {interpretation?.text && <p className="ai-reflection-text">{interpretation.text}</p>}
+        {interpretation?.hasGenerated && (
+          <button
+            className="text-button"
+            type="button"
+            disabled={
+              isGenerating || interpretation.regenerationsUsed >= MAX_REFLECTION_REGENERATIONS
+            }
+            onClick={generateInterpretation}
+          >
+            {isGenerating
+              ? `${t.reading.loadingReflection}${regenerationCountSuffix}`
+              : interpretation.regenerationsUsed >= MAX_REFLECTION_REGENERATIONS
+                ? `${t.reading.reflectionLimitReached}${regenerationCountSuffix}`
+                : `${t.reading.regenerateReflection}${regenerationCountSuffix}`}
+          </button>
+        )}
+      </section>
+
       <section className="notes-panel">
         <label className="field-label" htmlFor={`reading-notes-${reading.id}`}>
           {t.reading.notesLabel} <span>{t.reading.optional}</span>
@@ -165,7 +287,11 @@ export function ReadingResult({
             disabled={mutation.isPending}
             onClick={() => void saveNotes()}
           >
-            {mutation.isPending ? t.journal.saving : isSaved ? t.reading.saveNotes : t.reading.saveReading}
+            {mutation.isPending
+              ? t.journal.saving
+              : isSaved
+                ? t.reading.saveNotes
+                : t.reading.saveReading}
           </button>
           {onRedo && (
             <button className="secondary-button" type="button" onClick={onRedo}>

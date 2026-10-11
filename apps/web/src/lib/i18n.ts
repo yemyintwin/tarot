@@ -224,7 +224,8 @@ export const translations = {
     spreads: {
       eyebrow: 'YOUR READING',
       title: 'Choose a spread',
-      description: 'Choose the shape of your reflection. You can begin with a single card or explore a wider view.',
+      description:
+        'Choose the shape of your reflection. You can begin with a single card or explore a wider view.',
       chooseSpread: 'Choose spread',
       morePositions: 'more positions',
       cardCount: '{count} CARD(s)',
@@ -251,10 +252,11 @@ export const translations = {
       questionLabel: 'Your question or intention',
       optional: '(optional)',
       questionPlaceholder: 'What is on your mind?',
-      questionHint: 'Your question stays on this device.',
+      questionHint: 'Only sent to Gemini if you request an AI reflection.',
       continue: 'Continue',
       skipQuestion: 'Skip question',
-      disclaimer: 'A reading is a prompt for reflection and entertainment, not professional advice.',
+      disclaimer:
+        'A reading is a prompt for reflection and entertainment, not professional advice.',
       questionStory: 'A story is taking shape.',
       questionMoment: 'A moment to reflect.',
       notesLabel: 'Your reflection notes',
@@ -269,7 +271,18 @@ export const translations = {
       notFound: 'READING NOT FOUND',
       readingUnavailable: 'This saved reading is unavailable.',
       readingUnavailableBody: 'It may have been removed from your journal.',
-      readingSummary: '{count} of {total} cards revealed. Tap to draw the next card, or reveal them all at once.',
+      readingSummary:
+        '{count} of {total} cards revealed. Tap to draw the next card, or reveal them all at once.',
+      aiReflectionTitle: 'A reflection on your cards',
+      aiReflectionPrivacy:
+        'Your question and drawn cards are sent to Gemini Flash to create this reflection.',
+      generateReflection: 'Generate AI reflection',
+      generatingReflection: 'Gemini is reflecting on your cards…',
+      regenerateReflection: 'Generate another reflection',
+      loadingReflection: 'Loading…',
+      reflectionLimitReached: 'You’ve used all 3 additional reflections for this reading.',
+      reflectionTimeSingular: 'time',
+      reflectionTimePlural: 'times',
     },
   },
   my: {
@@ -311,7 +324,8 @@ export const translations = {
       savedReadings: 'သင့်မှတ်ထားသော လေ့လာမှုများကို ဒီနေရာတွင် တွေ့နိုင်ပါသည်။',
       startFirstReading: 'ပထမအကြိမ် လေ့လာမှုစတင်မည်',
       findingRecent: 'မကြာသေးမီလေ့လာမှုများကို ရှာနေသည်…',
-      disclaimer: 'လေ့လာမှုများသည် အတွေးအခေါ်နှင့် ဖျော်ဖြေရေးအတွက်သာ ဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ အကြံဥာဏ်မဟုတ်ပါ။',
+      disclaimer:
+        'လေ့လာမှုများသည် အတွေးအခေါ်နှင့် ဖျော်ဖြေရေးအတွက်သာ ဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ အကြံဥာဏ်မဟုတ်ပါ။',
       personalSpace: 'သင့်အကယ်ဒမီ',
     },
     settings: {
@@ -340,7 +354,8 @@ export const translations = {
     journal: {
       title: 'မှတ်တမ်း',
       eyebrow: 'သင့်အကယ်ဒမီ',
-      description: 'သင်သိမ်းထားသော လေ့လာမှုနှင့် အတွေးအခေါ်များကို ပြန်လည်ကြည့်ရှုနိုင်သော အကန့်အသတ်ရှိသည့်နေရာ။',
+      description:
+        'သင်သိမ်းထားသော လေ့လာမှုနှင့် အတွေးအခေါ်များကို ပြန်လည်ကြည့်ရှုနိုင်သော အကန့်အသတ်ရှိသည့်နေရာ။',
       openReading: 'လေ့လာမှုဖွင့်မည်',
       delete: 'ဖျက်မည်',
       updated: 'သိမ်းဆည်းပြီး',
@@ -389,7 +404,8 @@ export const translations = {
     spreads: {
       eyebrow: 'သင့်လေ့လာမှု',
       title: 'ပုံစံရွေးချယ်ပါ',
-      description: 'သင့်အတွေးအခေါ်အတွက် ပုံစံရွေးပါ။ တစ်ကတ်တည်းဖြင့် စတင်နိုင်ပြီး ပိုမိုကျယ်ပြန့်သော အမြင်ကိုလည်း ရှာနိုင်ပါသည်။',
+      description:
+        'သင့်အတွေးအခေါ်အတွက် ပုံစံရွေးပါ။ တစ်ကတ်တည်းဖြင့် စတင်နိုင်ပြီး ပိုမိုကျယ်ပြန့်သော အမြင်ကိုလည်း ရှာနိုင်ပါသည်။',
       chooseSpread: 'ပုံစံရွေးမည်',
       morePositions: 'ပိုမိုသော နေရာများ',
       cardCount: '{count} ကတ်',
@@ -416,10 +432,11 @@ export const translations = {
       questionLabel: 'သင့်မေးခွန်း သို့မဟုတ် ရည်ရွယ်ချက်',
       optional: '(မည်သည့်အချိန်မှမဆို)',
       questionPlaceholder: 'သင်စိတ်ထဲမှာ ဘာရှိလဲ။',
-      questionHint: 'သင့်မေးခွန်းသည် ဤစက်ပစ္စည်းပေါ်တွင်သာ သိမ်းမည်။',
+      questionHint: 'AI အတွေးအမြင်ကို တောင်းဆိုမှသာ Gemini သို့ ပေးပို့မည်။',
       continue: 'ဆက်မည်',
       skipQuestion: 'မေးခွန်းမေးပါ',
-      disclaimer: 'လေ့လာမှုသည် အတွေးအခေါ်နှင့် ဖျော်ဖြေရေးအတွက်သာ ဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ အကြံဥာဏ်မဟုတ်ပါ။',
+      disclaimer:
+        'လေ့လာမှုသည် အတွေးအခေါ်နှင့် ဖျော်ဖြေရေးအတွက်သာ ဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ အကြံဥာဏ်မဟုတ်ပါ။',
       questionStory: 'အဖြစ်အပျက်တစ်ခုက တည်ဆောက်နေသည်။',
       questionMoment: 'စဉ်းစားရန် အချိန်တစ်ခု။',
       notesLabel: 'သင့်အတွေးအခေါ်မှတ်စု',
@@ -434,11 +451,22 @@ export const translations = {
       notFound: 'လေ့လာမှုမတွေ့ပါ',
       readingUnavailable: 'ဤသိမ်းထားသော လေ့လာမှုကို မရနိုင်တော့ပါ။',
       readingUnavailableBody: '၎င်းကို သင့်မှတ်တမ်းမှ ဖယ်ရှားထားခြင်း ဖြစ်နိုင်သည်။',
-      readingSummary: '{count} ကတ်မဲလုံးကို မြင်ရပြီ။ နောက်ကတ်တစ်ကတ်ကို ဆွဲယူရန် တို့မဟုတ် အားလုံးကို တစ်ပြိုင်နက်မြင်လိုပါက တို့ပါ။',
+      readingSummary:
+        '{count} ကတ်မဲလုံးကို မြင်ရပြီ။ နောက်ကတ်တစ်ကတ်ကို ဆွဲယူရန် တို့မဟုတ် အားလုံးကို တစ်ပြိုင်နက်မြင်လိုပါက တို့ပါ။',
+      aiReflectionTitle: 'သင့်ကတ်များအပေါ် အတွေးအမြင်',
+      aiReflectionPrivacy:
+        'ဤအတွေးအမြင်အတွက် သင့်မေးခွန်းနှင့် ဆွဲထားသောကတ်များကို Gemini Flash သို့ ပေးပို့မည်။',
+      generateReflection: 'AI အတွေးအမြင် ဖန်တီးမည်',
+      generatingReflection: 'Gemini က သင့်ကတ်များကို အခြေခံ၍ စဉ်းစားနေသည်…',
+      regenerateReflection: 'အခြားအတွေးအမြင် ဖန်တီးမည်',
+      loadingReflection: 'ဖွင့်နေသည်…',
+      reflectionLimitReached: 'ဤလေ့လာမှုအတွက် ထပ်ဆောင်းအတွေးအမြင် ၃ ကြိမ်လုံး အသုံးပြုပြီးပါပြီ။',
+      reflectionTimeSingular: 'ကြိမ်',
+      reflectionTimePlural: 'ကြိမ်',
     },
   },
 } as const;
 
 export function getText(language: string | undefined) {
-  return translations[(language === 'my' ? 'my' : 'en')] ?? translations.en;
+  return translations[language === 'my' ? 'my' : 'en'] ?? translations.en;
 }

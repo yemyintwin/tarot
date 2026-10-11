@@ -1,0 +1,13 @@
+{
+  "name": "@tarot/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @tarot/shared build && node --env-file=.env server.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@tarot/shared": "workspace:*"
+  }
+}
