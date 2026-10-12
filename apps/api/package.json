@@ -3,11 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "main": "src/index.mjs",
+  "files": [
+    "host.json",
+    "interpretation.mjs",
+    "src/**"
+  ],
   "scripts": {
     "dev": "pnpm --filter @tarot/shared build && node --env-file=.env server.mjs",
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "start:functions": "func start"
   },
   "dependencies": {
+    "@azure/functions": "^4.7.2",
     "@tarot/shared": "workspace:*"
   }
 }
