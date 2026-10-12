@@ -44,6 +44,37 @@ describe('interpretation API', () => {
     return `http://127.0.0.1:${address.port}/api/interpretation`;
   }
 
+  it('rejects methods other than POST', async () => {
+    const endpoint = await startApi(undefined);
+    const response = await fetch(endpoint);
+
+    expect(response.status).toBe(405);
+    expect(response.headers.get('allow')).toBe('POST');
+  });
+
+  it('rejects oversized request bodies', async () => {
+    const endpoint = await startApi(undefined);
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: 'x'.repeat(24 * 1024 + 1),
+    });
+
+    expect(response.status).toBe(413);
+    expect(await response.json()).toEqual({ error: 'Request body is too large.' });
+  });
+
+  it('rejects requests that are not JSON', async () => {
+    const endpoint = await startApi(undefined);
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'content-type': 'text/plain' },
+      body: 'not json',
+    });
+
+    expect(response.status).toBe(415);
+  });
+
   it('requires a configured server-side API key', async () => {
     const endpoint = await startApi(undefined);
     const response = await fetch(endpoint, {
