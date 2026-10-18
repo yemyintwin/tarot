@@ -16,6 +16,16 @@ function sendJson(response, status, body) {
 export function createApiServer({ apiKey = process.env.GEMINI_API_KEY, fetchImpl = fetch } = {}) {
   return createServer(async (request, response) => {
     const url = new URL(request.url ?? '/', 'http://localhost');
+    if (url.pathname === '/api/health') {
+      if (request.method !== 'GET') {
+        response.setHeader('allow', 'GET');
+        sendJson(response, 405, { error: 'Method not allowed.' });
+        return;
+      }
+      sendJson(response, 200, { status: 'ok' });
+      return;
+    }
+
     if (url.pathname !== '/api/interpretation') {
       sendJson(response, 404, { error: 'Endpoint not found.' });
       return;

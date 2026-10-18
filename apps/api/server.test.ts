@@ -44,6 +44,25 @@ describe('interpretation API', () => {
     return `http://127.0.0.1:${address.port}/api/interpretation`;
   }
 
+  it('responds to the health check without requiring an API key', async () => {
+    const endpoint = await startApi(undefined);
+    const response = await fetch(endpoint.replace('/api/interpretation', '/api/health'));
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get('content-type')).toContain('application/json');
+    expect(await response.json()).toEqual({ status: 'ok' });
+  });
+
+  it('only allows GET requests to the health check', async () => {
+    const endpoint = await startApi(undefined);
+    const response = await fetch(endpoint.replace('/api/interpretation', '/api/health'), {
+      method: 'POST',
+    });
+
+    expect(response.status).toBe(405);
+    expect(response.headers.get('allow')).toBe('GET');
+  });
+
   it('rejects methods other than POST', async () => {
     const endpoint = await startApi(undefined);
     const response = await fetch(endpoint);
