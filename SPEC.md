@@ -32,10 +32,10 @@ A tarot reading app where the user picks a spread, shuffles and draws cards, rea
 - Dexie (IndexedDB) for phase 1 storage
 - vite-plugin-pwa
 
-**Backend (`apps/api`) — Phase 2, do not build yet**
-- Node.js + TypeScript, Fastify or Hono
-- SQLite then PostgreSQL, Drizzle ORM
-- Zod schemas shared from `packages/shared`
+**Backend (`api`)**
+- Node.js Azure Functions v4 with HTTP-triggered JavaScript ES modules
+- Shared schemas and types from `packages/shared`
+- Persistent storage and account sync remain future work
 
 **Tooling:** pnpm workspaces, ESLint, Prettier, Vitest, Playwright (a few smoke tests).
 
@@ -43,7 +43,7 @@ A tarot reading app where the user picks a spread, shuffles and draws cards, rea
 
 ```
 /apps/web          React PWA
-/apps/api          API (phase 2, empty for now)
+/api               Azure Functions API
 /packages/shared   Zod schemas and TypeScript types
 /design            mockups
 SPEC.md
@@ -152,8 +152,8 @@ Settings {
 8. Settings with language option, PWA setup, offline caching.
 9. Responsive and accessibility polish, smoke tests.
 
-**Phase 2 — backend (later, not now)**
-- Build `apps/api` with accounts, reading sync, and the same Zod contracts. Add OpenAPI docs.
+**Phase 2 — backend expansion (later)**
+- Expand the existing `api` Functions project with accounts, reading sync, and the same Zod contracts. Add OpenAPI docs.
 - Add HTTP repository implementations and switch via config. UI must not change.
 
 **Phase 3 — language option / multi-language**
