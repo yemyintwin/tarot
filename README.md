@@ -23,6 +23,9 @@ pnpm --filter @tarot/api dev
 
 The API reads `GEMINI_API_KEY` from `apps/api/.env`; the key stays server-side and is never bundled into the web app. The web app proxies `/api` requests to the local API. A reading's question and drawn card details are sent to Gemini Flash only when **Generate AI reflection** is selected.
 
+After deployment, verify API availability with `GET /api/health`; it returns
+`{"status":"ok"}` when the managed Functions API is running.
+
 ## Deploy to Azure Static Web Apps
 
 The Azure Static Web Apps workflow deploys the frontend and its managed Azure
