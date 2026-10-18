@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporary API deployment test</title>
+  </head>
+  <body>
+    <main>
+      <h1>Temporary API deployment test</h1>
+      <p>The production frontend is temporarily replaced while the managed API is tested.</p>
+      <h2>GET /api/health</h2>
+      <pre id="result">Checking API...</pre>
+    </main>
+    <script>
+      fetch('/api/health', { cache: 'no-store' })
+        .then(async (response) => {
+          const body = await response.text();
+          document.querySelector('#result').textContent =
+            `HTTP ${response.status}\n${body || '(empty response)'}`;
+        })
+        .catch((error) => {
+          document.querySelector('#result').textContent = `Request failed: ${error}`;
+        });
+    </script>
+  </body>
+</html>
