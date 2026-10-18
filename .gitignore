@@ -3,6 +3,7 @@ dist/
 coverage/
 .vite/
 dev-dist/
+apps/api/deploy/
 *.tsbuildinfo
 .env
 .env.*
