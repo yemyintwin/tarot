@@ -21,7 +21,7 @@ To enable AI-generated card reflections, start the API in a second terminal:
 pnpm --filter @tarot/api dev
 ```
 
-The API reads `GEMINI_API_KEY` from `apps/api/.env`; the key stays server-side and is never bundled into the web app. The web app proxies `/api` requests to the local API. A reading's question and drawn card details are sent to Gemini Flash only when **Generate AI reflection** is selected.
+The API reads `GEMINI_API_KEY` from `api/.env`; the key stays server-side and is never bundled into the web app. The web app proxies `/api` requests to the local API. A reading's question and drawn card details are sent to Gemini Flash only when **Generate AI reflection** is selected.
 
 After deployment, verify API availability with `GET /api/health`; it returns
 `{"status":"ok"}` when the managed Functions API is running.
@@ -30,7 +30,8 @@ After deployment, verify API availability with `GET /api/health`; it returns
 
 The Azure Static Web Apps workflow deploys the frontend and its managed Azure
 Functions API together. The app source is in `apps/web`; the Functions v4 API
-source is in `apps/api`. The workflow builds the frontend and packages the API,
+project is in the repository-root `api` folder, following the Azure Static Web
+Apps API project layout. The workflow builds the frontend and packages the API,
 including its `@tarot/shared` workspace dependency, before uploading both to the
 Static Web App. The API is available at `/api/interpretation`; no separately
 hosted Function App or API-linking step is required.
@@ -38,7 +39,7 @@ hosted Function App or API-linking step is required.
 Configure `GEMINI_API_KEY` in the Static Web App's application settings (and
 optionally `GEMINI_MODEL`). Never put the key in the frontend or commit it.
 For local development, the lightweight API server reads `GEMINI_API_KEY` from
-`apps/api/.env`; start it with `pnpm --filter @tarot/api dev`.
+`api/.env`; start it with `pnpm --filter @tarot/api dev`.
 
 For local development with Azure Functions Core Tools, run
 `pnpm --filter @tarot/api start:functions` after installing dependencies and
