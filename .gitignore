@@ -3,7 +3,7 @@ dist/
 coverage/
 .vite/
 dev-dist/
-apps/api/deploy/
+.swa-api-deploy/
 *.tsbuildinfo
 .env
 .env.*
