@@ -29,17 +29,17 @@ jobs:
       - name: Install and build
         run: |
           pnpm install --frozen-lockfile
-          pnpm --filter @tarot/shared build
+          pnpm build
           pnpm --filter @tarot/api deploy --prod .swa-api-deploy --legacy
           rm -f .swa-api-deploy/node_modules/.pnpm/node_modules/@tarot/api
       - name: Build And Deploy
         id: builddeploy
-        uses: Azure/static-web-apps-deploy@4d27395796ac319302594769cfe812bd207490b1
+        uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_SAND_0AF570F10 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          app_location: "swa-api-test-site"
+          app_location: "apps/web/dist"
           api_location: ".swa-api-deploy"
           skip_app_build: true
           skip_api_build: true
