@@ -30,8 +30,8 @@ jobs:
         run: |
           pnpm install --frozen-lockfile
           pnpm build
-          pnpm --filter @tarot/api deploy --prod .swa-api-deploy --legacy
-          rm -f .swa-api-deploy/node_modules/.pnpm/node_modules/@tarot/api
+          pnpm --filter @tarot/api deploy --prod api --legacy
+          rm -f api/node_modules/.pnpm/node_modules/@tarot/api
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -40,8 +40,9 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           app_location: "apps/web/dist"
-          api_location: ".swa-api-deploy"
+          api_location: "api"
           skip_app_build: true
+          skip_api_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
