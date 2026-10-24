@@ -31,10 +31,11 @@ After deployment, verify API availability with `GET /api/health`; it returns
 The Azure Static Web Apps workflow deploys the frontend and its managed Azure
 Functions API together. The app source is in `apps/web`, and the Functions v4
 API source is in `apps/api`. The workflow builds the frontend and packages the
-API, including its `@tarot/shared` workspace dependency, into the repository-root
-`api` folder before uploading both to the Static Web App. The API is available
-at `/api/interpretation`; no separately hosted Function App or API-linking step
-is required.
+API into the repository-root `api` folder. It stages the compiled
+`@tarot/shared` package there as a local dependency so Azure's npm-based API
+build can resolve it, then uploads both artifacts to the Static Web App. The
+API is available at `/api/interpretation`; no separately hosted Function App
+or API-linking step is required.
 
 Configure `GEMINI_API_KEY` in the Static Web App's application settings (and
 optionally `GEMINI_MODEL`). Never put the key in the frontend or commit it.
